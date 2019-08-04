@@ -1,0 +1,11 @@
+{
+    "presets": [
+        "@babel/preset-env"
+    ],
+    "plugins": [],
+    "env": {
+        "test": {
+          "plugins": ["istanbul"] // 必须配置
+        }
+    }
+}
